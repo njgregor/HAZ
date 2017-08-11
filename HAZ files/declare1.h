@@ -112,5 +112,12 @@ c    Declarations for Main file
      3     distS7(MAX_FLT,MAX_S7), DipS7(MAX_FLT,MAX_S7),
      4     mechS7(MAX_FLT,MAX_S7), version
 
+c      integer HWS7(MAX_FLT,MAX_S7), dS7Flag(MAX_FLT,MAX_S7)
+c     1        dirmechS7(MAX_FLT,MAX_S7), sS7(MAX_FLT,MAX_S7), thetaS7(MAX_FLT,MAX_S7)
+c     2        dS7(MAX_FLT,MAX_S7), azS7(MAX_FLT,MAX_S7)
+c      real distjbS7(MAX_FLT,MAX_S7), hypoS7(MAX_FLT,MAX_S7), RxS7(MAX_FLT,MAX_S7)
+c     1     RyS7(MAX_FLT,MAX_S7), Ry0S7(MAX_FLT,MAX_S7), rupWidthS7(MAX_FLT,MAX_S7)
+c     2     ztorS7(MAX_FLT,MAX_S7), ruplenS7(MAX_FLT,MAX_S7)
+
       character*80 fName(MAX_FLT), attenName(4,MAX_PROB), file1, file2,
      1             sigmaName(4,MAX_PROB), filebmode
